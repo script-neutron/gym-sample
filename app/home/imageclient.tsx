@@ -49,7 +49,7 @@ export function IntroSegment({}: Props) {
         your endurance. Exercise deliveres oxygen and nutrients to your tissues
         and helps your cardiovascular sysem work more efficiently
       </p>
-      <p className=" text-gray-300 mt-2 mr-2">
+      <p className=" text-gray-300 mt-2 mr-4">
         定期进行体育锻炼可以增强肌肉力量并增强耐力。
         运动为您的组织输送氧气和营养，帮助您的心血管系统更有效地工作
       </p>
