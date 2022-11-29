@@ -14,31 +14,27 @@ export default function Contact({}: Props) {
             ANY INFORMATION <span className="text-[#B3F25E]">NEEDED?</span>
           </h1>
           <p>
-            We are total nerds when it comes to body building traning. We use an
-            athletic-based training model and make sure get you what you need
-            for your body.
+            在帮助您实现理想体型方面，我们是全面的专家。
+            我们使用标准的国际运动训练模式，确保为您提供身体所需的一切。
           </p>
           <p className="flex">
             {" "}
-            <span className="mr-2 font-medium">24/7 Support </span>{" "}
+            <span className="mr-2 font-medium">24/7 支持 </span>{" "}
             <TiTickOutline />
           </p>{" "}
           <p className="flex">
             {" "}
-            <span className="mr-2 font-medium">Best Trainers </span>{" "}
-            <TiTickOutline />
+            <span className="mr-2 font-medium">优质设备</span> <TiTickOutline />
           </p>{" "}
           <p className="flex">
             {" "}
-            <span className="mr-2 font-medium">Over 70+ trainees </span>{" "}
+            <span className="mr-2 font-medium">顶级培训师</span>{" "}
             <TiTickOutline />
           </p>{" "}
         </div>
         <div></div>
         <div className="mt-4 text-center">
-          <h1 className="text-2xl text-[#B0B0B0]  tracking-[10px]">
-            Contact Us
-          </h1>
+          <h1 className="text-2xl text-[#B0B0B0]  tracking-[10px]">联系我们</h1>
           <SocialIcon
             url="https://jaketrent.com"
             network="wechat"

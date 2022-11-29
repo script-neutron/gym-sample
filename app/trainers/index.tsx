@@ -33,6 +33,9 @@ export default function Trainers({}: Props) {
       <h1 className="uppercase font-bold text-3xl mx-12 text-center tracking-[10px]">
         OUR <span className="text-[#B3F25E]">BEST Trainers</span>
       </h1>
+      <h1 className="uppercase font-bold text-3xl mx-12 text-center tracking-[10px] text-[#B3F25E]">
+        我们最好的培训师
+      </h1>
       <div className="grid md:grid-cols-3 gap-5 p-10 snap-mandatory mx-4">
         {data.map((prop) => (
           <motion.div

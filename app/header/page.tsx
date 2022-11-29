@@ -109,16 +109,6 @@ export default function Header({}: Props) {
                 Courses
               </button>
             </motion.li>
-
-            <motion.li
-              whileHover={{
-                scale: 1.2,
-                transition: { duration: 1 },
-              }}
-              whileTap={{ scale: 1.5 }}
-              className=" font-medium text-lg hover:text-[#6f963d]">
-              <Link href={"#"}>Trainers</Link>
-            </motion.li>
           </ul>
         </motion.div>
 
@@ -187,16 +177,6 @@ export default function Header({}: Props) {
                 }>
                 Courses
               </button>
-            </motion.li>
-
-            <motion.li
-              whileHover={{
-                scale: 1.2,
-                transition: { duration: 1 },
-              }}
-              whileTap={{ scale: 1.5 }}
-              className=" font-medium  hover:text-[#6f963d] py-7">
-              <Link href={"#"}>Trainers</Link>
             </motion.li>
           </ul>
           <motion.button
