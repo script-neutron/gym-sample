@@ -87,12 +87,7 @@ export default function Header({}: Props) {
               }}
               whileTap={{ scale: 1.5 }}
               className=" font-medium text-lg hover:text-[#6f963d]">
-              <button
-                onClick={() =>
-                  document.getElementById("aboutus").scrollIntoView()
-                }>
-                About Us
-              </button>
+              <button>About Us</button>
             </motion.li>
 
             <motion.li
@@ -102,12 +97,7 @@ export default function Header({}: Props) {
               }}
               whileTap={{ scale: 1.5 }}
               className=" font-medium text-lg hover:text-[#6f963d]">
-              <button
-                onClick={() =>
-                  document.getElementById("programs").scrollIntoView()
-                }>
-                Courses
-              </button>
+              <button>Courses</button>
             </motion.li>
           </ul>
         </motion.div>
@@ -156,12 +146,7 @@ export default function Header({}: Props) {
               }}
               whileTap={{ scale: 1.5 }}
               className=" font-medium  hover:text-[#6f963d] py-7">
-              <button
-                onClick={() =>
-                  document.getElementById("aboutus").scrollIntoView()
-                }>
-                About Us
-              </button>
+              <button>About Us</button>
             </motion.li>
 
             <motion.li
@@ -171,12 +156,7 @@ export default function Header({}: Props) {
               }}
               whileTap={{ scale: 1.5 }}
               className=" font-medium  hover:text-[#6f963d] py-7">
-              <button
-                onClick={() =>
-                  document.getElementById("programs").scrollIntoView()
-                }>
-                Courses
-              </button>
+              <button>Courses</button>
             </motion.li>
           </ul>
           <motion.button
