@@ -44,12 +44,12 @@ export function IntroSegment({}: Props) {
         <span className="text-[#B3F25E]">EXCUSES.</span>
         <p className="text-[#B3F25E] mt-2">让自己比借口更强大。</p>
       </h1>
-      <p className=" text-gray-300">
+      <p className=" text-gray-300 mr-2">
         Regular physical activities can improve your muscle strength and boost
         your endurance. Exercise deliveres oxygen and nutrients to your tissues
         and helps your cardiovascular sysem work more efficiently
       </p>
-      <p className=" text-gray-300 mt-2">
+      <p className=" text-gray-300 mt-2 mr-2">
         定期进行体育锻炼可以增强肌肉力量并增强耐力。
         运动为您的组织输送氧气和营养，帮助您的心血管系统更有效地工作
       </p>
